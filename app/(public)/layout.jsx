@@ -7,19 +7,20 @@ import AIChatbot from "@/components/AIChatbot";
 import SocialSidebar from "@/components/SocialSidebar"; // Your personalized component
 
 export default function PublicLayout({ children }) {
-    // Replace [YOUR_GA_MEASUREMENT_ID] with the ID you get from Google Analytics
 
     return (
         <>
             {/* GOOGLE ANALYTICS SCRIPT (Place high in the component tree) */}
             <Script strategy="afterInteractive" 
-                src={`https://www.googletagmanager.com/gtag/js?id=[YOUR_GA_MEASUREMENT_ID]`} />
+                // FIX 1: REMOVED SQUARE BRACKETS from URL
+                src={`https://www.googletagmanager.com/gtag/js?id=G-3XGW5CT9W9`} /> 
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '[YOUR_GA_MEASUREMENT_ID]');
+                    // FIX 2: REMOVED SQUARE BRACKETS from gtag config
+                    gtag('config', 'G-3XGW5CT9W9'); 
                 `}
             </Script>
             {/* END GOOGLE ANALYTICS */}
