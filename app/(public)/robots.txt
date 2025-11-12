@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /store
+Disallow: /api
+Disallow: /_next
+
+Sitemap: https://gocart-ecommerce-ruddy.vercel.app/sitemap.xml
