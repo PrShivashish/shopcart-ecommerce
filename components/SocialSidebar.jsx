@@ -12,7 +12,7 @@ const LinkedinIcon = () => (<svg width="20" height="20" viewBox="0 0 20 20" fill
 
 const socialIcons = [
     { icon: FacebookIcon, link: "https://www.facebook.com" }, // Replace with your FB link
-    { icon: InstagramIcon, link: "hhttps://www.instagram.com/pr_shivashish?igsh=dzk5cTVoMHN5bHEx" }, 
+    { icon: InstagramIcon, link: "https://www.instagram.com/pr_shivashish?igsh=dzk5cTVoMHN5bHEx" }, 
     { icon: TwitterIcon, link: "https://x.com/Shivash83784685?t=55oE1WBylB0um0Wonv1tIA&s=09" }, 
     { icon: LinkedinIcon, link: "https://www.linkedin.com/in/shivashish-prusty-9a134429a/" }, 
 ]
