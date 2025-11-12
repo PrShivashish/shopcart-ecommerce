@@ -1,4 +1,4 @@
-# 🛍️ GoCart – Multi-Vendor E-Commerce Platform
+# 🛍️ ShopCart – Multi-Vendor E-Commerce Platform
 
 > **A comprehensive, production-ready e-commerce marketplace enabling multiple vendors to operate on a unified platform with real-time analytics, AI-powered recommendations, and seamless payment processing.**
 
