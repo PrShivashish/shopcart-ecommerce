@@ -1,3 +1,5 @@
+'use client'
+
 import { Suspense } from "react"
 import ProductCard from "@/components/ProductCard"
 import { MoveLeftIcon } from "lucide-react"
