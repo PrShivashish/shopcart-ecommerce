@@ -12,15 +12,16 @@ export default function PublicLayout({ children }) {
         <>
             {/* GOOGLE ANALYTICS SCRIPT (Place high in the component tree) */}
             <Script strategy="afterInteractive" 
-                // FIX 1: REMOVED SQUARE BRACKETS from URL
-                src={`https://www.googletagmanager.com/gtag/js?id=G-3N37CMR6WD`} /> 
+                // SPOT 1: New ID G-0X8XP0RXJL inserted here
+                src={`https://www.googletagmanager.com/gtag/js?id=G-0X8XP0RXJL`} /> 
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    // FIX 2: REMOVED SQUARE BRACKETS from gtag config
-                    gtag('config', 'G-3N37CMR6WD'); 
+                    
+                    // SPOT 2: New ID G-0X8XP0RXJL inserted here
+                    gtag('config', 'G-0X8XP0RXJL'); 
                 `}
             </Script>
             {/* END GOOGLE ANALYTICS */}
